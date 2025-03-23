@@ -1,0 +1,27 @@
+/* src/styles.css */
+.App {
+    text-align: center;
+    /* padding: 20px; */
+    background-color: #f5f6f8; /* เทาอ่อน */
+}
+
+.button {
+    background-color: #c9b8e2; /* ม่วงพาสเทล */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #b8a3d8; /* ม่วงเข้มขึ้น */
+}
+
+.response {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f7d9e4; /* ชมพูพาสเทล */
+    border-radius: 8px;
+}
